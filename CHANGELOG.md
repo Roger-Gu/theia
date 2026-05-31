@@ -4,6 +4,14 @@
 
 - [Previous Changelogs](https://github.com/eclipse-theia/theia/tree/master/doc/changelogs/)
 
+## 1.73.0 - unreleased
+
+- [electron] upgraded Electron from 39.8.7 to 42.3.0 (Node 24, Chromium 148) [#17586](https://github.com/eclipse-theia/theia/pull/17586)
+
+<a name="breaking_changes_1.73.0">[Breaking Changes:](#breaking_changes_1.73.0)</a>
+
+- [electron] upgraded Electron from 39.8.7 to 42.3.0. Downstream Electron applications must update their `electron` devDependency to `42.3.0`. Electron 42 bundles Node 24 (up from Node 22), which may affect native modules or Node APIs used by downstream applications. See the Electron breaking changes for [40.0](https://www.electronjs.org/docs/latest/breaking-changes#planned-breaking-api-changes-400), [41.0](https://www.electronjs.org/docs/latest/breaking-changes#planned-breaking-api-changes-410), and [42.0](https://www.electronjs.org/docs/latest/breaking-changes#planned-breaking-api-changes-420). [#17586](https://github.com/eclipse-theia/theia/pull/17586)
+
 ## 1.72.0 - 5/28/2026
 
 - [ai] continued ai white label [#17447](https://github.com/eclipse-theia/theia/pull/17447)
